@@ -1,0 +1,287 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+	width: 100%;
+  height: 110px;
+  display: block;
+}
+
+.inner-header {
+  width: 85%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo-container {
+ height: 100%;
+ display: table;
+ float: left;
+}
+
+.logo-container .logo {
+  width: 78%;
+  display: table-cell;
+  vertical-align: middle;
+  margin: 8px auto;
+}
+
+.navigation {
+  float: right;
+  height: 100%;
+}
+
+.navigation li {
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 20px;
+}
+
+.navigation a:last-child {
+  padding-right: 0;
+}
+
+.navigation li a {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: white;
+  font-size: 1.1em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 120;
+  text-transform: uppercase;
+  transition: 0.2s all;
+  cursor: pointer;
+}
+
+.navigation li a:hover {
+  color: #BF0603;
+  transform: scale(1.05);
+}
+
+body {
+  background: #2C2C34;
+  background-attachment: fixed; 
+}  
+
+h2 {
+  color: #F4F3EE;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  text-align: justify;
+  font-weight: 300; 
+}
+
+.image-banner {
+  width: 100%;
+  opacity: 0.8;
+  box-shadow: 0 3px 5px rgba(24, 22, 22, 0.534);
+}  
+
+main h2 {
+  margin: 0 0 15px 30px;
+}
+
+main p {
+  color: #F4F3EE;
+  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px 30px 0 30px;
+  line-height: 1.8;
+}
+
+.about {
+  width: 940px;
+  margin: 150px auto;
+}
+
+.video {
+  margin: 20px 0;
+  box-shadow: 0 3px 5px rgba(24, 22, 22, 0.534);
+}
+
+.services {
+  width: 940px;
+  margin: 150px auto;
+}
+
+.hair-container {
+  position: relative;
+}
+
+.text-hair {
+  font-family: 'Montserrat' sans-serif;
+  font-size: 1.5em;
+  font-weight: 100;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.493);
+  color: white;
+  padding: 10px 0;
+}
+
+.haircut-photo {
+  display: block;
+  margin: auto;
+  width: 100%;
+  filter: grayscale(100%);
+  transition: .2s ease-in-out;
+}
+
+.haircut-photo:hover {
+  filter: grayscale(0%);
+}
+
+.beard-container {
+  position: relative;
+}
+
+.text-beard {
+  font-family: 'Montserrat' sans-serif;
+  font-size: 1.5em;
+  font-weight: 100;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.493);
+  color: white;
+  padding: 10px 0;
+}
+
+.beardtrim-photo {
+  display: block;
+  margin: auto;
+  width: 100%;
+  filter: grayscale(100%);
+  transition: .2s ease-in-out;
+}
+
+.full-container {
+  position: relative;
+}
+
+.text-full {
+  font-family: 'Montserrat' sans-serif;
+  font-size: 1.5em;
+  font-weight: 100;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.493);
+  color: white;
+  padding: 10px 0;
+}
+
+.beardtrim-photo:hover {
+  filter: grayscale(0%);
+}
+
+.fullpack-photo {
+  display: block;
+  margin: auto;
+  width: 100%;
+  filter: grayscale(100%);
+  transition: .2s ease-in-out;
+  box-shadow: 0 3px 5px rgba(24, 22, 22, 0.534);
+}
+
+.fullpack-photo:hover {
+  filter: grayscale(0%);
+}
+
+.location {
+  width: 940px;
+  margin: 150px auto;
+}
+
+.map {
+  box-shadow: 0 3px 5px rgba(24, 22, 22, 0.534);
+}
+
+.contact {
+  width: 940px;
+  margin: 150px auto 50px auto;
+}
+
+.main-contact {
+  width: 940px;
+	margin: 0px auto 150px auto;
+}
+
+form {
+  margin: 0px 30px;
+}
+
+form label, form legend {
+	display: block;
+	font-weight: 300;
+	margin: 0 0 10px;
+  font-family: 'Montserrat';
+  color: #F4F3EE;
+}
+
+.standard-input {
+	display: block;
+	margin: 0 0 20px;
+	padding: 12px 8px;
+	width: 50%;
+}
+
+.send {
+  font-family: 'Montserrat';
+	width: 20%;
+	padding: 10px 0;
+	background:#BCB8B1;
+	color: white;
+	font-size: 18px;
+	border: none;
+	border-radius: 3px;
+	transition: 0.2s all;
+	cursor: pointer;
+}
+
+.send:hover {
+	background: #BF0603;
+	transform: scale(1.009);
+}
+
+.barber-pole {
+  width: 38%;
+  float: right;
+  margin-top: 70px;
+  
+}
+
+footer {
+  background-image: linear-gradient(to bottom, #2C2C34, #494850);
+  width: 100%;
+  display: block;
+}
+
+.container-footer {
+  height: 100%;
+  padding: 80px;
+
+}
+
+.logo-footer {
+  width: 18%;
+  display: table;
+  margin: auto;
+  transition: 0.5s all;
+}
+
+.logo-footer:hover {
+  transform: scale(1.05);
+}

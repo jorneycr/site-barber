@@ -1,9 +1,6 @@
 
 # 💈 Tocchio's Barbershop
 
-<p align="center">
- <img alt="Logo do projeto" src="/images/logo-white-200.png">
-</p>
 
 Welcome to my first HTML and CSS project!!
 
